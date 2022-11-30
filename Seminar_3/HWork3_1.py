@@ -8,7 +8,7 @@
 def sum_pos_list(my_list):
 
     sum = 0
-    for i, item in enumerate(my_list):
+    for i, item in enumerate(my_list): # вариант перебора не чётных in range(1, len(my_list) - 1, 2)
         if i % 2 != 0:
             sum += item
     return sum
